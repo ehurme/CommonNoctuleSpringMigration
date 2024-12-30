@@ -47,3 +47,9 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# ECMWF files
+*.nc
+
+# R data files
+*.robj
