@@ -1,7 +1,8 @@
-# README: Scripts for "Bats Surf Storm Fronts During Spring Migration"
+# Scripts for "Bats Surf Storm Fronts During Spring Migration"
 
 This repository contains R scripts and associated data processing workflows used for the analysis in the paper **"Bats Surf Storm Fronts During Spring Migration."** Each script performs specific tasks related to data preprocessing, analysis, and visualization of bat migration and environmental data.
 
+https://www.science.org/doi/10.1126/science.ade7441
 ---
 
 ## **Scripts Overview**
