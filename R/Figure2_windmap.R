@@ -85,6 +85,8 @@ for(i in 1:3){
 }
 xy
 
+shift_ws <- 0
+
 ggplot(xy[1:4,])+
   geom_path(aes(x,y), lwd = 2)+
   geom_point(aes(x,y), col = 1, size = 5)+
@@ -113,9 +115,9 @@ ggplot(xy[1:4,])+
   coord_equal()+
   xlab("Longitude (UTM)")+
   ylab("Latitude (UTM)") -> p_windmap
-print(p_windmap_b3)
+print(p_windmap)
 
-save(IDs, xy, shift_ws, p_windmap, file = "./Data/Fig2_windmap.robj")
+save(xy, p_windmap, file = "./Data/rdata/Fig2_windmap.robj")
 ggsave(p_windmap,
        filename = "./Figures/Fig2/fig2_windmap.png")
 
